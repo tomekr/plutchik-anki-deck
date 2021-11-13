@@ -1,0 +1,716 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "dfcf7a44-4491-11ec-bdba-1e00da14648a",
+    "deck_config_uuid": "dfcf87be-4491-11ec-bdba-1e00da14648a",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "dfcf87be-4491-11ec-bdba-1e00da14648a",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "op-acceptance.jpg",
+        "op-admiration.jpg",
+        "op-amazement.jpg",
+        "op-anger.jpg",
+        "op-annoyance.jpg",
+        "op-anticipation.jpg",
+        "op-apprehension.jpg",
+        "op-boredom.jpg",
+        "op-disgust.jpg",
+        "op-distraction.jpg",
+        "op-ecstasy.jpg",
+        "op-fear.png",
+        "op-grief.jpg",
+        "op-interest.jpg",
+        "op-joy.png",
+        "op-loathing.jpg",
+        "op-pensiveness.jpg",
+        "op-rage.jpg",
+        "op-sadness.jpg",
+        "op-serenity.jpg",
+        "op-surprise.jpg",
+        "op-terror.jpg",
+        "op-trust.png",
+        "op-vigilance.jpg"
+    ],
+    "name": "Plutchik",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-15129",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>the state or quality of being calm, or tranquil<br><br>Similar words:&nbsp;Calm, Peaceful<br><br>Typical sensations:&nbsp;Relaxed, open hearted<br><br>What is&nbsp;_____&nbsp;telling you?&nbsp;Something is happening that's essential, pure, or purposeful<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Renew energy, make connections, reflect to learn<br></div><br>",
+                "Serenity / Serene"
+            ],
+            "guid": "IF`t9+7N]!",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the emotion of great delight or happiness caused by something exceptionally good or satisfying; keen pleasure; elation<br><br>Similar words:&nbsp;Excited, Pleased<br><br>Typical sensations:&nbsp;Sense of energy and possibility<br><br>What is&nbsp;_____&nbsp;telling you?&nbsp;Life is going well<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Sparks creativity, connection, gives energy",
+                "Joy"
+            ],
+            "guid": "Ezs<b7;VlC",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>an overpowering emotion or exaltation; a state of sudden, intense feeling,&nbsp;rapturous delight<br><br>Similar words:&nbsp;Delighted, Giddy<br><br>Typical sensations:&nbsp;Abundance of energy<br><br>What is&nbsp;_____&nbsp;telling you?&nbsp;This is better than I imagined<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Strengthens relationship, increases creativity, builds memories<span style=\"color: rgb(26, 26, 26);\"><br></span></div>",
+                "Ecstasy"
+            ],
+            "guid": "gbCz@L.l8&",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the act of assenting or believing<br><br>Similar words:&nbsp;Open, Welcoming<br><br>Typical sensations:&nbsp;Peaceful<br><br>What is&nbsp;_____&nbsp;telling you?&nbsp;We are in this together<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Create relationships, community",
+                "Acceptance"
+            ],
+            "guid": "B[,D:N6|tZ",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "reliance on the integrity, strength, ability, surety, etc., of a person or thing; confidence<br><br>Similar words:&nbsp;Accepting, Safe<br><br>Typical sensations:&nbsp;Warm<br><br>What is _____&nbsp;telling you?&nbsp;This is safe<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Be open, connect, build alliance",
+                "Trust"
+            ],
+            "guid": "ejfk_&z1J+",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>a feeling of wonder, pleasure, or approval<br><br>Similar words:&nbsp;Connected, Proud<br><br>Typical sensations:&nbsp;Glowing<br><br>What is&nbsp;______ telling you?&nbsp;I want to support the person or thing<br><br>How can ______&nbsp;help you?&nbsp;Strengthen commitment to person or idea<span style=\"color: rgb(26, 26, 26);\"><br></span></div>",
+                "Admiration"
+            ],
+            "guid": "t5szGIdC6`",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "anticipation of adversity or misfortune; suspicion or fear of future trouble or evil<br><br>Similar words:&nbsp;Worried, Anxious<br><br>Typical sensations:&nbsp;Can't relax<br><br>What is&nbsp;_____ telling you?&nbsp;There could be a problem<br><br>How can&nbsp;_____ help you?&nbsp;Seek out potential risks, don't ignore problem",
+                "Apprehension"
+            ],
+            "guid": "r#7}R&(o|m",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a distressing emotion aroused by impending danger, evil, pain, etc., whether the threat is real or imagined<br><br>Similar words:&nbsp;Stressed, Scared<br><br>Typical sensations:&nbsp;Agitated<br><br>What is&nbsp;_____ telling you?&nbsp;Something I care about is at risk<br><br>How can&nbsp;_____ help you?&nbsp;Protect what we care about",
+                "Fear"
+            ],
+            "guid": "P>+,IxTXuy",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "intense, sharp, overmastering fear<br><br>Similar words:&nbsp;Alarmed, Petrified<br><br>Typical sensations:&nbsp;Hard to breathe<br><br>What is&nbsp;_____ telling you?&nbsp;There is big danger<br><br>How can&nbsp;_____ help you?&nbsp;Seek safety for self/others",
+                "Terror"
+            ],
+            "guid": "o$(dDdc_3M",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "that which&nbsp;_____, divides the attention, or prevents concentration:<br><br>Similar words:&nbsp;Scattered, Uncertain<br><br>Typical sensations:&nbsp;Unfocused<br><br>What is&nbsp;_____&nbsp;telling you?&nbsp;I don't know what to prioritize<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Consider what to prioritize",
+                "Distraction"
+            ],
+            "guid": "D,*H@4i{8^",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "to strike or occur to with a sudden feeling of wonder or astonishment, as through unexpectedness<br><br>Similar words:&nbsp;Shocked, Unexpected<br><br>Typical sensations:&nbsp;Heart pounding<br><br>What is&nbsp;_____ telling you?&nbsp;Something new happened<br><br>How can&nbsp;_____ help you?&nbsp;Pay attention to what's right here",
+                "Surprise"
+            ],
+            "guid": "d/V{{^RrX`",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>overpowering wonder or surprise<br></div><br>Similar words:&nbsp;Inspired, WOWed<br><br>Typical sensations:&nbsp;Heart stopping<br><br>What is&nbsp;_____ telling you?&nbsp;Something is totally unexpected<br><br>How can&nbsp;_____ help you?&nbsp;Remember this moment",
+                "Amazement"
+            ],
+            "guid": "D+S2oafl):",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "expressing or revealing thoughtfulness, usually marked by some sadness<br><br>Similar words:&nbsp;Blue, Unhappy<br><br>Typical sensations:&nbsp;Slow &amp; disconnected<br><br>What is&nbsp;_____ telling you?&nbsp;Love is distant<br><br>How can&nbsp;_____ help you?&nbsp;Remembering people, things that are important",
+                "Pensiveness"
+            ],
+            "guid": "u#piAvC^Kf",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the quality or state of being affected by unhappiness or grief;&nbsp;sorrow:<br><br>Similar words:&nbsp;Bummed, Loss<br><br>Typical sensations:&nbsp;Heavy<br><br>What is&nbsp;_____ telling you?&nbsp;Love is going away<br><br>How can&nbsp;_____ help you?&nbsp;Focus on what's important to us",
+                "Sadness"
+            ],
+            "guid": "Q1]a;kq^~o",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "keen mental suffering or distress over affliction or loss; sharp sorrow; painful regret<br><br>Similar words:&nbsp;Heartbroken, Distraught<br><br>Typical sensations:&nbsp;Hard to get up<br><br>What is&nbsp;_____ telling you?&nbsp;Love is lost<br><br>How can&nbsp;_____ help you?&nbsp;To know what we truly want",
+                "Grief"
+            ],
+            "guid": "kCzwNGSI]]",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the feeling of being wearied by dullness, tedious repetition, etc.<br><br>Similar words:&nbsp;Tired, Uninterested<br><br>Typical sensations:&nbsp;Drained, low energy<br><br>What is _____ telling you?&nbsp;The potential for this situation isn't being met<br><br>How can&nbsp;_____ help you?&nbsp;Take a rest, learn something new, refocus on what I can control about situation",
+                "Boredom"
+            ],
+            "guid": "r]^t5{b?_=",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a strong distaste; nausea<br><br>Similar words:&nbsp;Distrust, Rejecting<br><br>Typical sensations:&nbsp;Bitter &amp; unwanted<br><br>What is&nbsp;_____ telling you?&nbsp;Wrong; rules are violated<br><br>How can&nbsp;_____ help you?&nbsp;Notice something unsafe or wrong",
+                "Disgust"
+            ],
+            "guid": "Aw/6uad|%R",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "strong dislike or disgust; intense aversion<br><br>Similar words:&nbsp;Disturbed, Horrified<br><br>Typical sensations:&nbsp;Bileous &amp; vehement<br><br>What is&nbsp;_____&nbsp;telling you?&nbsp;Fundamental values are violated<br><br>How can&nbsp;_____&nbsp;help you?&nbsp;Energize to block something vile",
+                "Loathing"
+            ],
+            "guid": "N>=DIPu&FP",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a person or thing that&nbsp;disturbs or bothers<br><br>Similar words:&nbsp;Frustrated, Prickly<br><br>Typical sensations:&nbsp;Slightly agitated<br><br>What is&nbsp;_____ telling you?&nbsp;Something is unresolved<br><br>How can&nbsp;_____ help you?&nbsp;Notice minor issues",
+                "Annoyance"
+            ],
+            "guid": "FB+WmyO~:*",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a strong feeling of displeasure and belligerence aroused by a wrong; wrath; ire.<br><br>Similar words:&nbsp;Mad, Fierce<br><br>Typical sensations:&nbsp;Strong and heated<br><br>What is&nbsp;_____ telling you?&nbsp;Something is in the way<br><br>How can&nbsp;_____ help you?&nbsp;Energize to break through a barrier",
+                "Anger"
+            ],
+            "guid": "o_BB!mX-3+",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "angry fury; violent anger (sometimes used in combination)<br><br>Similar words:&nbsp;Overwhelmed, Furious<br><br>Typical sensations:&nbsp;Pounding heart, see red<br><br>What is&nbsp;_____ telling you?&nbsp;I'm blocked from something vital<br><br>How can&nbsp;_____ help you?&nbsp;Attack an obstacle",
+                "Rage"
+            ],
+            "guid": "cJ_S<t!A~{",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the feeling of a person whose attention, concern, or curiosity is particularly engaged by something<br><br>Similar words:&nbsp;Open, Looking<br><br>Typical sensations:&nbsp;Mild sense of curiosity<br><br>What is&nbsp;_____ telling you?&nbsp;Something useful might come<br><br>How can&nbsp;_____ help you?&nbsp;Pay attention, explore",
+                "Interest"
+            ],
+            "guid": "yZCp<r4)]@",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "expectation or hope<br><br>Similar words:&nbsp;Curious, Considering<br><br>Typical sensations:&nbsp;Alert and exploring<br><br>What is&nbsp;_____ telling you?&nbsp;Change is happening<br><br>How can&nbsp;_____ help you?&nbsp;Look ahead, look at what might be coming",
+                "Anticipation"
+            ],
+            "guid": "ch_|^mW>X{",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "state or quality of being&nbsp;ever awake and alert; sleeplessly watchful<br><br>Similar words:&nbsp;Intense, Focused<br><br>Typical sensations:&nbsp;Highly focused<br><br>What is&nbsp;_____ telling you?&nbsp;Something big is coming<br><br>How can&nbsp;_____ help you?&nbsp;Get ready, look carefully, stay alert",
+                "Vigilance"
+            ],
+            "guid": "iF,x<![lvY",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Anticipation and Joy",
+                "Optimism"
+            ],
+            "guid": "x@Qfdl1>(f",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Joy and Trust",
+                "Love"
+            ],
+            "guid": "rzY%*DGQ3d",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Trust and Fear",
+                "Submission"
+            ],
+            "guid": "bu.k.[z3`Q",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Fear and Surprise",
+                "Awe"
+            ],
+            "guid": "e;J-!^Muc<",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Surprise and Sadness",
+                "Disapproval"
+            ],
+            "guid": "L)+u-kpDPx",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Sadness and Disgust",
+                "Remorse"
+            ],
+            "guid": "Q?=z&nKs}<",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Disgust and Anger",
+                "Contempt"
+            ],
+            "guid": "Cx~hddr6^c",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Combination of Anger and Anticipation",
+                "Aggressiveness"
+            ],
+            "guid": "GKrW3Uah0|",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the 8 primary emotions?",
+                "<span style=\"color: rgb(63, 63, 63);\">anger, anticipation, joy, trust, fear, surprise, sadness and disgust</span>"
+            ],
+            "guid": "d!+W&@LyId",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-joy.png\">",
+                "Sadness"
+            ],
+            "guid": "qe=`QZ`^!>",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-trust.png\">",
+                "Disgust"
+            ],
+            "guid": "yr>=}XA/i<",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-fear.png\">",
+                "Anger"
+            ],
+            "guid": "r*P9b_=b2;",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-surprise.jpg\">",
+                "Anticipation"
+            ],
+            "guid": "f!uScX,s6R",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-sadness.jpg\">",
+                "Joy"
+            ],
+            "guid": "`llM3lOyV",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-disgust.jpg\">",
+                "Trust"
+            ],
+            "guid": "yD`r>Do-XY",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-anger.jpg\">",
+                "Fear"
+            ],
+            "guid": "b+*m:&U(3*",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-anticipation.jpg\">",
+                "Surprise"
+            ],
+            "guid": "DU<k4o~`,o",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-ecstasy.jpg\">",
+                "Grief"
+            ],
+            "guid": "q&%&6ZqA{$",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-admiration.jpg\">",
+                "Loathing"
+            ],
+            "guid": "py<hXm<kxN",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-terror.jpg\">",
+                "Rage"
+            ],
+            "guid": "wCYe7|_ssk",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-amazement.jpg\">",
+                "Vigilance"
+            ],
+            "guid": "dhbB+mpiw-",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-grief.jpg\">",
+                "Ecstasy"
+            ],
+            "guid": "Gh(u|v-pg~",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-loathing.jpg\">",
+                "Admiration"
+            ],
+            "guid": "mQHiP0Yo]C",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-rage.jpg\">",
+                "Terror"
+            ],
+            "guid": "j$Aud1FiRR",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-vigilance.jpg\">",
+                "Amazement"
+            ],
+            "guid": "tVfu$_Gs6M",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-annoyance.jpg\">",
+                "Apprehension"
+            ],
+            "guid": "}As~YdIx*",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-boredom.jpg\">",
+                "Acceptance"
+            ],
+            "guid": "Ic2RZW9Xlw",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-pensiveness.jpg\">",
+                "Serenity"
+            ],
+            "guid": "sKj0kI4mI{",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-distraction.jpg\">",
+                "Interest"
+            ],
+            "guid": "w53<KYpZ@z",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-apprehension.jpg\">",
+                "Annoyance"
+            ],
+            "guid": "lz!&2g=&+.",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-acceptance.jpg\">",
+                "Boredom"
+            ],
+            "guid": "em:c&D(a!T",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-serenity.jpg\">",
+                "Pensiveness"
+            ],
+            "guid": "d7ch/nnWC0",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"op-interest.jpg\">",
+                "Distraction"
+            ],
+            "guid": "u)XfAb<y<i",
+            "note_model_uuid": "dfcfb36a-4491-11ec-bdba-1e00da14648a",
+            "tags": []
+        }
+    ]
+}
